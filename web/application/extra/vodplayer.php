@@ -456,4 +456,51 @@ return array (
     'tip' => '无需安装任何插件',
     'id' => 'fantasy',
   ),
+  'subom3u8' => 
+  array (
+    'status' => '1',
+    'from' => 'subom3u8',
+    'show' => 'subom3u8',
+    'des' => '',
+    'ps' => '0',
+    'parse' => '',
+    'sort' => '110',
+    'tip' => 'subom3u8',
+  ),
+  'suboyun' => 
+  array (
+    'status' => '1',
+    'from' => 'suboyun',
+    'show' => 'suboyun',
+    'des' => 'suboyun',
+    'ps' => '0',
+    'parse' => '',
+    'sort' => '110',
+    'tip' => '',
+    'id' => 'suboyun',
+  ),
+  '135m3u8' => 
+  array (
+    'status' => '1',
+    'from' => '135m3u8',
+    'show' => '135m3u8',
+    'des' => '',
+    'ps' => '0',
+    'parse' => '',
+    'sort' => '99',
+    'tip' => '135m3u8',
+    'id' => '135m3u8',
+  ),
+  '135zy' => 
+  array (
+    'status' => '1',
+    'from' => '135zy',
+    'show' => '135zy',
+    'des' => '',
+    'ps' => '0',
+    'parse' => '',
+    'sort' => '99',
+    'tip' => '135zy',
+    'id' => '135zy',
+  ),
 );
