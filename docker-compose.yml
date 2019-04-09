@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  docker_docker_maccms:
+    container_name: docker_docker_maccms
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    ports:
+      - 9103:80
+    volumes:
+      - ./web:/var/www/html
