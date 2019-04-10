@@ -1,0 +1,4 @@
+<?php
+//000000003600
+ exit();?>
+a:28:{s:7:"vod_all";i:591;s:7:"vod_min";d:505;s:7:"art_min";d:0;s:10:"type_all_3";i:67;s:10:"type_all_0";i:135;s:10:"type_all_4";i:68;s:10:"type_all_6";i:24;s:10:"type_all_1";i:223;s:10:"type_all_7";i:31;s:10:"type_all_8";i:18;s:10:"type_all_9";i:8;s:11:"type_all_10";i:8;s:11:"type_all_11";i:48;s:11:"type_all_21";i:86;s:11:"type_all_13";i:58;s:10:"type_all_2";i:233;s:11:"type_all_14";i:9;s:11:"type_all_15";i:25;s:11:"type_all_16";i:141;s:9:"topic_all";i:0;s:11:"topic_today";i:0;s:9:"tpoic_min";d:0;s:9:"actor_all";i:0;s:11:"actor_today";i:0;s:9:"actor_min";d:0;s:8:"role_all";i:0;s:10:"role_today";i:0;s:8:"role_min";d:0;}
