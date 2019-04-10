@@ -19,7 +19,7 @@ return array (
   array (
     'site_name' => '禹迹影院-免费在线电影',
     'site_url' => 'yuzn.club',
-    'site_wapurl' => 'www.1.cn',
+    'site_wapurl' => 'wap.yuzn.club',
     'site_keywords' => '免费在线电影',
     'site_description' => '提供最新最快的影视资讯和在线播放',
     'site_icp' => 'icp123',
