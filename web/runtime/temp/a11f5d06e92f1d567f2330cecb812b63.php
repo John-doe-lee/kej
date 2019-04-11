@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"template/hdbee_bak/html/vod/play.html";i:1544256676;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1544284764;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1544256662;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"template/hdbee_bak/html/vod/play.html";i:1554944104;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1544284764;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1544256662;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -321,6 +321,6 @@ $(document).ready(function(){
 <?php echo $maccms['site_tj']; ?>
 </div>
 <script type="text/javascript" src="<?php echo $maccms['path_tpl']; ?>js/script.js?ver=1.5"></script> 
-  <script type="text/javascript" src="http://www.hdbee.net/wp-content/theme_kz/KZ-ORTERS-CODE/js/lightbox.min.js?ver=1.0"></script> 
+  <script type="text/javascript" src="http://www.17sucai.com/preview/484595/2017-11-15/LightBox/js/lightBox.js"></script>
   </body>
 </html>

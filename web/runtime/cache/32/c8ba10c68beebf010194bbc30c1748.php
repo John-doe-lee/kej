@@ -1,4 +1,0 @@
-<?php
-//000000003600
- exit();?>
-a:35:{s:7:"vod_all";i:597;s:9:"vod_today";i:14;s:7:"vod_min";d:505;s:7:"art_min";d:0;s:10:"type_all_3";i:67;s:10:"type_all_0";i:136;s:10:"type_all_4";i:69;s:10:"type_all_6";i:24;s:10:"type_all_1";i:223;s:10:"type_all_7";i:31;s:10:"type_all_8";i:18;s:10:"type_all_9";i:8;s:11:"type_all_10";i:8;s:11:"type_all_11";i:48;s:11:"type_all_21";i:86;s:11:"type_all_13";i:59;s:10:"type_all_2";i:238;s:11:"type_all_14";i:9;s:11:"type_all_15";i:25;s:11:"type_all_16";i:145;s:12:"type_today_3";i:1;s:12:"type_today_0";i:2;s:12:"type_today_4";i:1;s:13:"type_today_13";i:8;s:12:"type_today_2";i:12;s:13:"type_today_16";i:4;s:9:"topic_all";i:0;s:11:"topic_today";i:0;s:9:"tpoic_min";d:0;s:9:"actor_all";i:0;s:11:"actor_today";i:0;s:9:"actor_min";d:0;s:8:"role_all";i:0;s:10:"role_today";i:0;s:8:"role_min";d:0;}

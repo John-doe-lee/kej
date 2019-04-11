@@ -167,9 +167,9 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
        <span>制片地区:</span>
        <ul class="afc1"> 
        	<a class="fl_link tag-linked" href="javascript:;" data-tag="0">不限</a>
-       	<?php if(empty($obj['type_extend']['area']) || (($obj['type_extend']['area'] instanceof \think\Collection || $obj['type_extend']['area'] instanceof \think\Paginator ) && $obj['type_extend']['area']->isEmpty())): $_5cacbc8c96bf4=explode(',',$obj['parent']['type_extend']['area']); if(is_array($_5cacbc8c96bf4) || $_5cacbc8c96bf4 instanceof \think\Collection || $_5cacbc8c96bf4 instanceof \think\Paginator): if( count($_5cacbc8c96bf4)==0 ) : echo "" ;else: foreach($_5cacbc8c96bf4 as $key=>$vo): ?>
+       	<?php if(empty($obj['type_extend']['area']) || (($obj['type_extend']['area'] instanceof \think\Collection || $obj['type_extend']['area'] instanceof \think\Paginator ) && $obj['type_extend']['area']->isEmpty())): $_5cae92bb8892f=explode(',',$obj['parent']['type_extend']['area']); if(is_array($_5cae92bb8892f) || $_5cae92bb8892f instanceof \think\Collection || $_5cae92bb8892f instanceof \think\Paginator): if( count($_5cae92bb8892f)==0 ) : echo "" ;else: foreach($_5cae92bb8892f as $key=>$vo): ?>
         <a class="fl_link" href="<?php echo mac_url_type($obj,['area'=>$vo],'show'); ?>" data-cat="1"><?php echo $vo; ?></a>
-         <?php endforeach; endif; else: echo "" ;endif; else: $_5cacbc8c96b59=explode(',',$obj['type_extend']['area']); if(is_array($_5cacbc8c96b59) || $_5cacbc8c96b59 instanceof \think\Collection || $_5cacbc8c96b59 instanceof \think\Paginator): if( count($_5cacbc8c96b59)==0 ) : echo "" ;else: foreach($_5cacbc8c96b59 as $key=>$vo): ?>
+         <?php endforeach; endif; else: echo "" ;endif; else: $_5cae92bb8885d=explode(',',$obj['type_extend']['area']); if(is_array($_5cae92bb8885d) || $_5cae92bb8885d instanceof \think\Collection || $_5cae92bb8885d instanceof \think\Paginator): if( count($_5cae92bb8885d)==0 ) : echo "" ;else: foreach($_5cae92bb8885d as $key=>$vo): ?>
         <a class="fl_link" href="<?php echo mac_url_type($obj,['area'=>$vo],'show'); ?>" data-cat="56"><?php echo $vo; ?></a>
           <?php endforeach; endif; else: echo "" ;endif; endif; ?>
 
@@ -181,10 +181,10 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
        <a class="fl_link tag-linked" href="javascript:;" data-tag="0">不限</a>
    
 
-        <?php if(empty($obj['type_extend']['class']) || (($obj['type_extend']['class'] instanceof \think\Collection || $obj['type_extend']['class'] instanceof \think\Paginator ) && $obj['type_extend']['class']->isEmpty())): $_5cacbc8c96aaf=explode(',',$obj['parent']['type_extend']['class']); if(is_array($_5cacbc8c96aaf) || $_5cacbc8c96aaf instanceof \think\Collection || $_5cacbc8c96aaf instanceof \think\Paginator): if( count($_5cacbc8c96aaf)==0 ) : echo "" ;else: foreach($_5cacbc8c96aaf as $key=>$vo): ?>
+        <?php if(empty($obj['type_extend']['class']) || (($obj['type_extend']['class'] instanceof \think\Collection || $obj['type_extend']['class'] instanceof \think\Paginator ) && $obj['type_extend']['class']->isEmpty())): $_5cae92bb887a2=explode(',',$obj['parent']['type_extend']['class']); if(is_array($_5cae92bb887a2) || $_5cae92bb887a2 instanceof \think\Collection || $_5cae92bb887a2 instanceof \think\Paginator): if( count($_5cae92bb887a2)==0 ) : echo "" ;else: foreach($_5cae92bb887a2 as $key=>$vo): ?>
           
         <a class="fl_link" href="<?php echo mac_url_type($obj,['class'=>$vo],'show'); ?>" data-tag="22"><?php echo $vo; ?></a>
-        <?php endforeach; endif; else: echo "" ;endif; else: $_5cacbc8c96a16=explode(',',$obj['type_extend']['class']); if(is_array($_5cacbc8c96a16) || $_5cacbc8c96a16 instanceof \think\Collection || $_5cacbc8c96a16 instanceof \think\Paginator): if( count($_5cacbc8c96a16)==0 ) : echo "" ;else: foreach($_5cacbc8c96a16 as $key=>$vo): ?>
+        <?php endforeach; endif; else: echo "" ;endif; else: $_5cae92bb886f7=explode(',',$obj['type_extend']['class']); if(is_array($_5cae92bb886f7) || $_5cae92bb886f7 instanceof \think\Collection || $_5cae92bb886f7 instanceof \think\Paginator): if( count($_5cae92bb886f7)==0 ) : echo "" ;else: foreach($_5cae92bb886f7 as $key=>$vo): ?>
        <a class="fl_link" href="<?php echo mac_url_type($obj,['class'=>$vo],'show'); ?>" data-tag="22"><?php echo $vo; ?></a>
         
         <?php endforeach; endif; else: echo "" ;endif; endif; ?>
@@ -197,9 +197,9 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
        <span>影视年代:</span>
        <a class="fl_link tag-linked" href="javascript:;" data-tag="0">不限</a>
    
-                <?php if(empty($obj['type_extend']['year']) || (($obj['type_extend']['year'] instanceof \think\Collection || $obj['type_extend']['year'] instanceof \think\Paginator ) && $obj['type_extend']['year']->isEmpty())): $_5cacbc8c9696c=explode(',',$obj['parent']['type_extend']['year']); if(is_array($_5cacbc8c9696c) || $_5cacbc8c9696c instanceof \think\Collection || $_5cacbc8c9696c instanceof \think\Paginator): if( count($_5cacbc8c9696c)==0 ) : echo "" ;else: foreach($_5cacbc8c9696c as $key=>$vo): ?>
+                <?php if(empty($obj['type_extend']['year']) || (($obj['type_extend']['year'] instanceof \think\Collection || $obj['type_extend']['year'] instanceof \think\Paginator ) && $obj['type_extend']['year']->isEmpty())): $_5cae92bb88636=explode(',',$obj['parent']['type_extend']['year']); if(is_array($_5cae92bb88636) || $_5cae92bb88636 instanceof \think\Collection || $_5cae92bb88636 instanceof \think\Paginator): if( count($_5cae92bb88636)==0 ) : echo "" ;else: foreach($_5cae92bb88636 as $key=>$vo): ?>
                     <a class="fl_link" href="<?php echo mac_url_type($obj,['year'=>$vo],'show'); ?>" data-tag="22"><?php echo $vo; ?></a>
-                    <?php endforeach; endif; else: echo "" ;endif; else: $_5cacbc8c968d5=explode(',',$obj['type_extend']['year']); if(is_array($_5cacbc8c968d5) || $_5cacbc8c968d5 instanceof \think\Collection || $_5cacbc8c968d5 instanceof \think\Paginator): if( count($_5cacbc8c968d5)==0 ) : echo "" ;else: foreach($_5cacbc8c968d5 as $key=>$vo): ?>
+                    <?php endforeach; endif; else: echo "" ;endif; else: $_5cae92bb88563=explode(',',$obj['type_extend']['year']); if(is_array($_5cae92bb88563) || $_5cae92bb88563 instanceof \think\Collection || $_5cae92bb88563 instanceof \think\Paginator): if( count($_5cae92bb88563)==0 ) : echo "" ;else: foreach($_5cae92bb88563 as $key=>$vo): ?>
                     <a class="fl_link" href="<?php echo mac_url_type($obj,['year'=>$vo],'show'); ?>" data-tag="22"><?php echo $vo; ?></a>
                     <?php endforeach; endif; else: echo "" ;endif; endif; ?>
 
@@ -232,7 +232,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
        <h2><?php echo $vo['vod_name']; ?></h2>
        <div class="otherinfo">
         类型：
-	<?php $_5cacbc8c967ed=explode(',',$vo['vod_class']); if(is_array($_5cacbc8c967ed) || $_5cacbc8c967ed instanceof \think\Collection || $_5cacbc8c967ed instanceof \think\Paginator): if( count($_5cacbc8c967ed)==0 ) : echo "" ;else: foreach($_5cacbc8c967ed as $key2=>$vo2): ?>
+	<?php $_5cae92bb8848d=explode(',',$vo['vod_class']); if(is_array($_5cae92bb8848d) || $_5cae92bb8848d instanceof \think\Collection || $_5cae92bb8848d instanceof \think\Paginator): if( count($_5cae92bb8848d)==0 ) : echo "" ;else: foreach($_5cae92bb8848d as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>
        </div>

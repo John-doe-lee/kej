@@ -10,3 +10,4 @@ services:
       - 9103:80
     volumes:
       - ./web:/var/www/html
+      - ./data:/var/lib/mysql

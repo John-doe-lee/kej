@@ -206,7 +206,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5cacb6045cd54=explode(',',$vo['vod_class']); if(is_array($_5cacb6045cd54) || $_5cacb6045cd54 instanceof \think\Collection || $_5cacb6045cd54 instanceof \think\Paginator): if( count($_5cacb6045cd54)==0 ) : echo "" ;else: foreach($_5cacb6045cd54 as $key2=>$vo2): ?>
+	<?php $_5cae949d7acc8=explode(',',$vo['vod_class']); if(is_array($_5cae949d7acc8) || $_5cae949d7acc8 instanceof \think\Collection || $_5cae949d7acc8 instanceof \think\Paginator): if( count($_5cae949d7acc8)==0 ) : echo "" ;else: foreach($_5cae949d7acc8 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
@@ -227,7 +227,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-		<?php $_5cacb6045ca91=explode(',',$vo['vod_class']); if(is_array($_5cacb6045ca91) || $_5cacb6045ca91 instanceof \think\Collection || $_5cacb6045ca91 instanceof \think\Paginator): if( count($_5cacb6045ca91)==0 ) : echo "" ;else: foreach($_5cacb6045ca91 as $key2=>$vo2): ?>
+		<?php $_5cae949d7ac19=explode(',',$vo['vod_class']); if(is_array($_5cae949d7ac19) || $_5cae949d7ac19 instanceof \think\Collection || $_5cae949d7ac19 instanceof \think\Paginator): if( count($_5cae949d7ac19)==0 ) : echo "" ;else: foreach($_5cae949d7ac19 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>					
 					</div>
@@ -249,7 +249,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5cacb6045c95e=explode(',',$vo['vod_class']); if(is_array($_5cacb6045c95e) || $_5cacb6045c95e instanceof \think\Collection || $_5cacb6045c95e instanceof \think\Paginator): if( count($_5cacb6045c95e)==0 ) : echo "" ;else: foreach($_5cacb6045c95e as $key2=>$vo2): ?>
+	<?php $_5cae949d7ab63=explode(',',$vo['vod_class']); if(is_array($_5cae949d7ab63) || $_5cae949d7ab63 instanceof \think\Collection || $_5cae949d7ab63 instanceof \think\Paginator): if( count($_5cae949d7ab63)==0 ) : echo "" ;else: foreach($_5cae949d7ab63 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>
@@ -271,7 +271,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5cacb6045c82d=explode(',',$vo['vod_class']); if(is_array($_5cacb6045c82d) || $_5cacb6045c82d instanceof \think\Collection || $_5cacb6045c82d instanceof \think\Paginator): if( count($_5cacb6045c82d)==0 ) : echo "" ;else: foreach($_5cacb6045c82d as $key2=>$vo2): ?>
+	<?php $_5cae949d7aa88=explode(',',$vo['vod_class']); if(is_array($_5cae949d7aa88) || $_5cae949d7aa88 instanceof \think\Collection || $_5cae949d7aa88 instanceof \think\Paginator): if( count($_5cae949d7aa88)==0 ) : echo "" ;else: foreach($_5cae949d7aa88 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>
@@ -293,7 +293,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5cacb6045c6e9=explode(',',$vo['vod_class']); if(is_array($_5cacb6045c6e9) || $_5cacb6045c6e9 instanceof \think\Collection || $_5cacb6045c6e9 instanceof \think\Paginator): if( count($_5cacb6045c6e9)==0 ) : echo "" ;else: foreach($_5cacb6045c6e9 as $key2=>$vo2): ?>
+	<?php $_5cae949d7a971=explode(',',$vo['vod_class']); if(is_array($_5cae949d7a971) || $_5cae949d7a971 instanceof \think\Collection || $_5cae949d7a971 instanceof \think\Paginator): if( count($_5cae949d7a971)==0 ) : echo "" ;else: foreach($_5cae949d7a971 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>

@@ -504,4 +504,28 @@ return array (
     'tip' => '135zy',
     'id' => '135zy',
   ),
+  'wlm3u8' => 
+  array (
+    'status' => '1',
+    'from' => 'wlm3u8',
+    'show' => 'wlm3u8',
+    'des' => '卧龙影视资源站',
+    'ps' => '1',
+    'parse' => 'https://copyplus.cn/vip/play.html?url=',
+    'sort' => '99',
+    'tip' => '在线播放,无需安装播放器',
+    'id' => 'wlm3u8',
+  ),
+  'wlzy' => 
+  array (
+    'status' => '1',
+    'from' => 'wlzy',
+    'show' => 'wlzy',
+    'des' => 'http://wlzy.tv',
+    'ps' => '1',
+    'parse' => 'http://www.copyplus.cn/vip/play.html?url=',
+    'sort' => '99',
+    'tip' => '在线播放,无需安装播放器',
+    'id' => 'wlzy',
+  ),
 );
