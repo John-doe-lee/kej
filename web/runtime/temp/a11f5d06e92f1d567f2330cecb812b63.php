@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"template/hdbee_bak/html/vod/play.html";i:1554944104;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555034888;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"template/hdbee_bak/html/vod/play.html";i:1554944104;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555072437;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

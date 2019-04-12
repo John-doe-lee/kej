@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:40:"template/hdbee_bak/html/index/index.html";i:1555036916;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555034888;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:40:"template/hdbee_bak/html/index/index.html";i:1555075548;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555072437;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -161,7 +161,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 	<div class="wrappter">
 		<div class="wrp_left">
 			<ul class="bxslider tow_slider">
-<?php $__TAG__ = '{"num":"3","paging":"no","type":"all","level":"9","order":"asc","by":"sort","id":"vo","key":"key"}';$__LIST__ = model("Vod")->listCacheData($__TAG__); if(is_array($__LIST__['list']) || $__LIST__['list'] instanceof \think\Collection || $__LIST__['list'] instanceof \think\Paginator): $key = 0; $__LIST__ = $__LIST__['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?>
+<?php $__TAG__ = '{"num":"3","paging":"no","type":"all","level":"9","order":"desc","by":"sort","id":"vo","key":"key"}';$__LIST__ = model("Vod")->listCacheData($__TAG__); if(is_array($__LIST__['list']) || $__LIST__['list'] instanceof \think\Collection || $__LIST__['list'] instanceof \think\Paginator): $key = 0; $__LIST__ = $__LIST__['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?>
 <li><a target="_blank" href="<?php echo mac_url_vod_detail($vo); ?>"><img src="<?php echo mac_url_img($vo['vod_pic_slide']); ?>" alt="<?php echo $vo['vod_name']; ?>" width="100%"/></a></li>
 <?php endforeach; endif; else: echo "" ;endif; ?>
 
@@ -169,7 +169,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 		</div>
 		<div class="wrp_right">
 			<ul>
-<?php $__TAG__ = '{"num":"2","paging":"no","type":"all","level":"1","order":"asc","by":"sort","id":"vo","key":"key"}';$__LIST__ = model("Vod")->listCacheData($__TAG__); if(is_array($__LIST__['list']) || $__LIST__['list'] instanceof \think\Collection || $__LIST__['list'] instanceof \think\Paginator): $key = 0; $__LIST__ = $__LIST__['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?>			
+<?php $__TAG__ = '{"num":"2","paging":"no","type":"all","level":"1","order":"desc","by":"sort","id":"vo","key":"key"}';$__LIST__ = model("Vod")->listCacheData($__TAG__); if(is_array($__LIST__['list']) || $__LIST__['list'] instanceof \think\Collection || $__LIST__['list'] instanceof \think\Paginator): $key = 0; $__LIST__ = $__LIST__['list'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($key % 2 );++$key;?>
 				<li><a target="_blank" href="<?php echo mac_url_vod_detail($vo); ?>"><img src="<?php echo mac_url_img($vo['vod_pic_slide']); ?>" alt="<?php echo $vo['vod_name']; ?>迅雷下载" width="100%"/>
 				<div class="cx_title">
 					<span>站内精选</span>
@@ -187,7 +187,10 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 		<li id="text-3" class="widget widget_text">
 		<div class="textwidget">
 			<p>
-				<i class="fa fa-forumbee"></i> ： 加入<?php echo $maccms['site_name']; ?>交流群与大家分享观影心得：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=f92ef3cd7c778a9d1b7c83259cdcc597cc9e4dd2daee645038872d86f7aa2632"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="邻家影院-影迷交流群" title="邻家影院-影迷交流群"></a>    <i class="fa fa-forumbee"></i> ：长时间无法播放请更换播放器，本站支持多种解析播放！
+				<i class="fa fa-forumbee"></i> ： 加入<?php echo $maccms['site_name']; ?>交流群与大家分享观影心得: 群号: <font color="red">31966624</font>
+				<!--<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=f92ef3cd7c778a9d1b7c83259cdcc597cc9e4dd2daee645038872d86f7aa2632"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="邻家影院-影迷交流群" title="邻家影院-影迷交流群"></a>    -->
+				<!--<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=057e1c29cf974166edfdf4e5e5f6835bd55a2ec9c95f6a359fbaf5a8d0095a10"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="邻家影院-影迷交流群" title="邻家影院-影迷交流群"></a>-->
+				<i class="fa fa-forumbee"></i> ：长时间无法播放请更换播放器，本站支持多种解析播放！
 			</p>
 		</div>
 		</li>
@@ -206,7 +209,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5caffaf7c507f=explode(',',$vo['vod_class']); if(is_array($_5caffaf7c507f) || $_5caffaf7c507f instanceof \think\Collection || $_5caffaf7c507f instanceof \think\Paginator): if( count($_5caffaf7c507f)==0 ) : echo "" ;else: foreach($_5caffaf7c507f as $key2=>$vo2): ?>
+	<?php $_5cb093a4b315b=explode(',',$vo['vod_class']); if(is_array($_5cb093a4b315b) || $_5cb093a4b315b instanceof \think\Collection || $_5cb093a4b315b instanceof \think\Paginator): if( count($_5cb093a4b315b)==0 ) : echo "" ;else: foreach($_5cb093a4b315b as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>
 					</div>
@@ -227,7 +230,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-		<?php $_5caffaf7c4fbc=explode(',',$vo['vod_class']); if(is_array($_5caffaf7c4fbc) || $_5caffaf7c4fbc instanceof \think\Collection || $_5caffaf7c4fbc instanceof \think\Paginator): if( count($_5caffaf7c4fbc)==0 ) : echo "" ;else: foreach($_5caffaf7c4fbc as $key2=>$vo2): ?>
+		<?php $_5cb093a4b30a2=explode(',',$vo['vod_class']); if(is_array($_5cb093a4b30a2) || $_5cb093a4b30a2 instanceof \think\Collection || $_5cb093a4b30a2 instanceof \think\Paginator): if( count($_5cb093a4b30a2)==0 ) : echo "" ;else: foreach($_5cb093a4b30a2 as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>					
 					</div>
@@ -249,7 +252,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5caffaf7c4ed0=explode(',',$vo['vod_class']); if(is_array($_5caffaf7c4ed0) || $_5caffaf7c4ed0 instanceof \think\Collection || $_5caffaf7c4ed0 instanceof \think\Paginator): if( count($_5caffaf7c4ed0)==0 ) : echo "" ;else: foreach($_5caffaf7c4ed0 as $key2=>$vo2): ?>
+	<?php $_5cb093a4b2ffa=explode(',',$vo['vod_class']); if(is_array($_5cb093a4b2ffa) || $_5cb093a4b2ffa instanceof \think\Collection || $_5cb093a4b2ffa instanceof \think\Paginator): if( count($_5cb093a4b2ffa)==0 ) : echo "" ;else: foreach($_5cb093a4b2ffa as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>
@@ -271,7 +274,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5caffaf7c25ad=explode(',',$vo['vod_class']); if(is_array($_5caffaf7c25ad) || $_5caffaf7c25ad instanceof \think\Collection || $_5caffaf7c25ad instanceof \think\Paginator): if( count($_5caffaf7c25ad)==0 ) : echo "" ;else: foreach($_5caffaf7c25ad as $key2=>$vo2): ?>
+	<?php $_5cb093a4b2f4b=explode(',',$vo['vod_class']); if(is_array($_5cb093a4b2f4b) || $_5cb093a4b2f4b instanceof \think\Collection || $_5cb093a4b2f4b instanceof \think\Paginator): if( count($_5cb093a4b2f4b)==0 ) : echo "" ;else: foreach($_5cb093a4b2f4b as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>
@@ -293,7 +296,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 					<h2><?php echo $vo['vod_name']; ?></h2>
 					<div class="otherinfo">
 						类型：
-	<?php $_5caffaf7c245f=explode(',',$vo['vod_class']); if(is_array($_5caffaf7c245f) || $_5caffaf7c245f instanceof \think\Collection || $_5caffaf7c245f instanceof \think\Paginator): if( count($_5caffaf7c245f)==0 ) : echo "" ;else: foreach($_5caffaf7c245f as $key2=>$vo2): ?>
+	<?php $_5cb093a4b2e8c=explode(',',$vo['vod_class']); if(is_array($_5cb093a4b2e8c) || $_5cb093a4b2e8c instanceof \think\Collection || $_5cb093a4b2e8c instanceof \think\Paginator): if( count($_5cb093a4b2e8c)==0 ) : echo "" ;else: foreach($_5cb093a4b2e8c as $key2=>$vo2): ?>
     <a  href="<?php echo mac_url_type($vo,['area'=>$param['area'],'lang'=>$param['lang'],'year'=>$param['year'],'level'=>$param['level'],'letter'=>$param['letter'],'state'=>$param['state'],'tag'=>$param['tag'],'class'=>$vo2,'order'=>$param['order'],'by'=>$param['by'],'id'=>$param['type_id'] ],'show'); ?>"><?php echo $vo2; ?></a>
     <?php endforeach; endif; else: echo "" ;endif; ?>						
 					</div>

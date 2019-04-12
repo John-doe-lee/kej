@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:39:"template/hdbee_bak/html/vod/detail.html";i:1544256676;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555034888;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:39:"template/hdbee_bak/html/vod/detail.html";i:1555072543;s:57:"/var/www/html/template/hdbee_bak/html/public/include.html";i:1544256664;s:54:"/var/www/html/template/hdbee_bak/html/public/head.html";i:1555072437;s:54:"/var/www/html/template/hdbee_bak/html/public/foot.html";i:1555034951;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,7 +324,6 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
 ------------->
 
        <div class="dtpost-like cl">
-
 <a class="digg_link favorite" data-id="<?php echo $obj['vod_id']; ?><?php echo $obj['art_id']; ?><?php echo $obj['topic_id']; ?>" data-mid="<?php echo $maccms['mid']; ?>" data-type="up" href="javascript:;"><i class="fa fa-thumbs-up"></i><span class="count"><em class="digg_num" style="color: #F58282;"><?php echo $obj['vod_up']; ?><?php echo $obj['art_up']; ?><?php echo $obj['topic_up']; ?></em>个赞 </span></a>
 
 <a href="javascript:void(0);"  class="mac_ulog share-btn collect collect-no" data-type="2" data-mid="<?php echo $maccms['mid']; ?>" data-id="<?php echo $obj['vod_id']; ?>"><i class="fa fa-star"></i><span class="count">收藏</span></a>

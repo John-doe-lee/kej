@@ -111,7 +111,7 @@ return array (
   ),
   'gbook' => 
   array (
-    'status' => '1',
+    'status' => '0',
     'audit' => '0',
     'login' => '0',
     'verify' => '1',
