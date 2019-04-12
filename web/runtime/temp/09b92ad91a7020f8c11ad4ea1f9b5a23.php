@@ -321,7 +321,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
          </div>
         </div>
        </div>
-<!-------------------------------------->
+------------->
 
        <div class="dtpost-like cl">
 
