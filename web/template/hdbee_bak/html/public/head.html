@@ -30,7 +30,7 @@ preg_match('|label/(.*?)\.html|',$_SERVER['PHP_SELF'],$ary);
         {/maccms:type}
 		</ul>
 		</li>
-		<li class="nav-item mac_user"></li>
+
 		<li id="menu-item-14430" {if condition="$maccms.aid == 4"} class="current-post-ancestor"{/if}><a href="{:mac_url('gbook/index')}">留言求片</a></li>
 		<li id="menu-item-15632" {if $ary.1 == "new"} class="current-post-ancestor"{/if}><a href="{:mac_url('label/new')}">最近更新</a></li>
         {maccms:type ids="20" order="asc" by="sort"}

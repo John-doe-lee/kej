@@ -1,14 +1,13 @@
 <?php
 return array (
-  'server1' =>
+  'server1' => 
   array (
     'status' => '1',
     'from' => 'server1',
-    'show' => '测试服务器1',
-    'des' => 'des提示信息1',
+    'show' => '在线',
+    'des' => '',
     'sort' => '1',
-    'tip' => 'tip提示信息1',
+    'tip' => '',
     'id' => 'server1',
   ),
 );
-?>
